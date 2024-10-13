@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://scontent.fixe4-1.fna.fbcdn.net/o1/v/t0/f1/m340/genai_m4_lla_ftw_v3:upload_img_56590384_10_05_2024_01_24_55_043007_901081383639210969.jpeg?_nc_ht=scontent.fixe4-1.fna.fbcdn.net&_nc_cat=105&ccb=9-4&oh=00_AYBoKNR4wJJxysbhErMGJXBMKN8y3ZSjZU0Ho4K-xQWjTQ&oe=6702D4C9&_nc_sid=5b3566') no-repeat center center; /* Update this path */
+    background-size: cover; /* Ensure the background covers the full view */
+    color: white;
+}
+
+/* Rest of your CSS code remains unchanged */
+
+}
+
+/* Stopwatch Title */
+/* Stopwatch Title */
+.stopwatch-title {
+    font-family: 'Orbitron', sans-serif; /* New font style */
+    font-size: 100px; /* Increased font size */
+    color: white;
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.9), 
+        0 0 10px rgba(255, 255, 255, 0.9),
+        0 0 20px rgba(255, 0, 0, 0.9); /* White neon glow effect */
+    margin-bottom: 20px;
+    text-align: center; /* Centered title */
+}
+
+
+/* Neon White Light Effect for Time Display */
+/* Neon White Light Effect for Time Display */
+#display {
+    font-size: 96px; /* Increased font size */
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.7),
+        0 0 10px rgba(255, 255, 255, 0.7),
+        0 0 20px rgba(255, 255, 255, 0.7),
+        0 0 40px rgba(255, 255, 255, 0.7),
+        0 0 80px rgba(255, 255, 255, 0.7);
+}
+
+
+/* Styling for Buttons */
+.buttons button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 111);
+    border: none;
+    color: black;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+/* Button hover and active animation */
+.buttons button:active {
+    transform: scale(0.95);
+    background-color: #00e6e2;
+}
+
+.buttons button:hover {
+    background-color: #ff8000;
+}
+
+/* Lap List */
+#laps {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
